@@ -2,8 +2,8 @@
  
 STRemover is a primarily vibecoded app to remove SteamTools/Greenluma Lua and Manifest files simply and easier, built with Tauri, React and Vite.
 
-Quickmarks analytics offers a few key features:  
-- Also removes .manifest files using a SteamCMD based API for depot info
+STRemover offers these features:  
+- Removes .manifest files using a SteamCMD based API for depot info
 - Lightweight RAM usage, 10-20MB  
 - Steam API for name searching  
  
