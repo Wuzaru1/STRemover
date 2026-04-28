@@ -6,6 +6,52 @@ body {
   margin: 0;
   padding: 0;
   background-color: #05050e;
+  overflow: hidden;
   color: #ffffff;
   font-family: "Courier New", Courier, monospace;
+}
+
+/* Root element styling */
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1a1a2e;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #252540;
+}
+
+::-webkit-scrollbar-corner {
+  background: #0a0a1a;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #1a1a2e #0a0a1a;
+}
+
+/* CSS Containment for performance */
+.contain-layout {
+  contain: layout style;
+}
+
+.contain-strict {
+  contain: strict;
 }
