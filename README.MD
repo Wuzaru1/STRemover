@@ -17,8 +17,8 @@ We do not use an installer, as it would bloat more, and be less convenient. Just
  
 ## Credits
  
-Vibecoding - SWE-1.6 Fast
-AI Prompts - Wuzaru
+- Vibecoding - SWE-1.6 Fast
+- AI Prompts - Wuzaru
  
 ## License
  
