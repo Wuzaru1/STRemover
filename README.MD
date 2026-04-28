@@ -9,11 +9,7 @@ Quickmarks analytics offers a few key features:
  
 ## Installation
  
-Here's how you use STRemover
- 
-## Usage
- 
-We do not use an installer, as it would bloat more, and be less convenient. Just head to the releases and download the latest release.
+We do not use an installer, as it would increase size (if I were to add an installer I would also auto update), and be less convenient. Just head to the releases and download the latest release.
  
 ## Credits
  
