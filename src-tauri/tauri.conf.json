@@ -27,13 +27,28 @@
       },
       "path": {
         "all": true
+      },
+      "window": {
+        "all": true
+      },
+      "http": {
+        "all": true,
+        "request": true,
+        "scope": ["https://store.steampowered.com/**", "https://manifest.steam.run/**", "https://cdn.*.steamstatic.com/**"]
       }
     },
     "bundle": {
       "active": true,
-      "targets": "all",
+      "targets": ["app"],
       "identifier": "com.str-remover.dev",
-      "icon": []
+      "icon": [
+        "icons/icon.ico"
+      ],
+      "windows": {
+        "webviewInstallMode": {
+          "type": "downloadBootstrapper"
+        }
+      }
     },
     "security": {
       "csp": null
@@ -43,12 +58,14 @@
     },
     "windows": [
       {
+        "label": "main",
         "title": "STRemover",
-        "width": 700,
-        "height": 800,
+        "width": 500,
+        "height": 600,
         "resizable": false,
         "fullscreen": false,
-        "decorations": true
+        "decorations": false,
+        "transparent": true
       }
     ]
   }
